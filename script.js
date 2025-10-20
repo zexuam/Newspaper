@@ -19,7 +19,7 @@ file.addEventListener("change", e => {
     btn.addEventListener("click", async () => {
         document.querySelector(
             "p"
-        ).innerText = `${location.host}/assets/${file.name}`;
+        ).innerText = `${location.host}/Newspaper/assets/${file.name}`;
 
         await navigator.clipboard
             .writeText([`${location.host}/assets/${file.name}`])
