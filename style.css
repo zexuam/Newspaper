@@ -32,6 +32,10 @@ body {
     object-fit: cover;
 }
 
+.wrapper p {
+    word-break: break-word;
+}
+
 .wrapper button {
     width: 90%;
     height: 40px;
