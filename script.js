@@ -22,7 +22,7 @@ file.addEventListener("change", e => {
         ).innerText = `${location.host}/Newspaper/assets/${file.name}`;
 
         await navigator.clipboard
-            .writeText([`${location.host}/assets/${file.name}`])
+            .writeText([`${location.host}/Newspaper/assets/${file.name}`])
             .catch(err => {
                 console.log(err);
             });
